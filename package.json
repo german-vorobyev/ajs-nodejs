@@ -2,9 +2,9 @@
   "name": "@german-vorobyev/ajs-nodejs",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/german-vorobyev/ajs-nodejs/issues"
   },
-  "homepage": "https://github.com/german-vorobyev/ajs-nodejs#readme"
+  "homepage": "https://github.com/german-vorobyev/ajs-nodejs#readme",
+  "dependencies": {
+    "@german-vorobyev/ajs": "1.0.2"
+  }
 }
